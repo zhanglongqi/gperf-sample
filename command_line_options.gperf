@@ -1,6 +1,6 @@
 %{
 #include "command_options.h"
-typedef struct CommandOptionCode CommandOptionCode;
+
 %}
 struct CommandOption
   {
@@ -8,8 +8,8 @@ struct CommandOption
   int OptionCode;
   };
 %%
-+helpverbose, CommandOptionCode::HELPVERBOSE
-+password, CommandOptionCode::PASSWORD
-+nocopyright, CommandOptionCode::NOCOPYRIGHT
-+nolog, CommandOptionCode::NOLOG
-+_64bit, CommandOptionCode::_64BIT
++helpverbose, HELPVERBOSE
++password, PASSWORD
++nocopyright, NOCOPYRIGHT
++nolog, NOLOG
++_64bit, _64BIT
